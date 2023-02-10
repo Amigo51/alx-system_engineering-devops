@@ -74,3 +74,13 @@ chmod -R ugo+X .
 
 =======================================================================================
 //.12
+a script that creates a directory called my_dir with permissions 751 in the working directory.
+#!/bin/bash
+mkdir -m 751 my_dir
+
+==============================================================================================
+//.13
+a script that changes the group owner to school for the file hello
+chgrp group_name file_name
+#!/bin/bash
+chgrp school hello
